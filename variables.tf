@@ -6,7 +6,7 @@ variable "bucket_name" {
 variable "region" {
   description = "AWS region to deploy resources"
   type        = string
-  default     = "us-east-1"
+  default     = "eu-north-1"
 }
 
 variable "tags" {
