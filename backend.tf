@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket        = "my-terraform-state-bucket"
+    bucket        = "pragati-iacm-poc1-bucket"
     key           = "iacm/terraform.tfstate"
-    region        = "eu-north-1"
+    region        = "us-east-1"
     encrypt       = true
   }
 }
