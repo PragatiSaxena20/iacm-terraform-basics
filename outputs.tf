@@ -15,5 +15,5 @@ output "bucket_domain_name" {
 
 output "bucket_region" {
   description = "The region where the S3 bucket is created"
-  value       = aws_s3_bucket.state_bucket.region
+  value       = var.region
 }
